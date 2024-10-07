@@ -1,5 +1,5 @@
 # django-rest-api
-A REST api written in Django for people with deadlines
+A REST api written in Django
 
 ## Technologies used
 * [Django](https://www.djangoproject.com/): The web framework for perfectionists with deadlines (Django builds better web apps with less code).
@@ -20,17 +20,14 @@ A REST api written in Django for people with deadlines
 * #### Dependencies
     1. Cd into your the cloned repo as such:
         ```bash
-            $ cd django-rest-api
+            $ cd srmsconnect
         ```
     2. Create and fire up your virtual environment:
         ```bash
-            $ virtualenv  venv -p python3
-            $ source venv/bin/activate
+            $ python -m venv env
+            $ env\Scripts\activate
         ```
-    3. Install the dependencies needed to run the app:
-        ```bash
-            $ pip install -r requirements.txt
-        ```
+   
     4. Make those migrations work
         ```bash
             $ python manage.py makemigrations
@@ -44,5 +41,5 @@ A REST api written in Django for people with deadlines
     ```
     You can now access the file api service on your browser by using
     ```
-        http://localhost:8000/auth/
+        http://localhost:8000/api/
     ```
