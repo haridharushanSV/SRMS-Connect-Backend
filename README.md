@@ -43,3 +43,4 @@ A REST api written in Django
     ```
         http://localhost:8000/api/
     ```
+![image](https://github.com/user-attachments/assets/4252a34d-3f08-4d6e-86c3-995c46cbe2f8)
