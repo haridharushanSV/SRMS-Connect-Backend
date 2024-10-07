@@ -14,7 +14,7 @@ A REST api written in Django
     ```
 * Then, Git clone this repo to your PC
     ```bash
-        $ git clone https://github.com/gitgik/django-rest-api.git
+        $ gh repo clone haridharushanSV/SRMS-Connect-Backend
     ```
 
 * #### Dependencies
